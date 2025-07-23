@@ -16,7 +16,7 @@
 <body>
  <div id="app" class="container"> 
     <div class="row">
-        <img src="livraria.jpeg" alt="Sala de uma biblioteca" class="image">
+        <img src="assets/livraria.jpeg" alt="Sala de uma biblioteca" class="image">
     </div>
     <div class="row mt-3">
         <div class="col-md-6">
@@ -55,8 +55,8 @@
                         <td>{{livro.editora}}</td>
                         <td>{{livro.ano}}</td>
                         <td>{{livro.valor | reais }}</td>
-                        <td><a href ='#'@click="alterar(index)"><img src="images.png" alt="Alterar" width="25"></a></td>
-                        <td><a href ='#'@click="excluir(index)"><img src="images (1).png" alt="Excluir"width="25"></a></td>
+                        <td><a href ='#'@click="alterar(index)"><img src="assets/update.png" alt="Alterar" width="25"></a></td>
+                        <td><a href ='#'@click="excluir(index)"><img src="assets/remove.png" alt="Excluir"width="25"></a></td>
                     </tr>
                 </tbody>
             </table>
